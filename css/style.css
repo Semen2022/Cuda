@@ -1,0 +1,879 @@
+/* Start Common style for HTML, body*/
+/* Reset style CSS in another file "resetcssmeyer.css"
+*/ 
+html, body{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+  min-width: 320px;
+}
+
+*, *::after, *::before{
+	box-sizing: inherit;
+} 
+
+body{
+	font-family: 'Titillium Web', sans-serif; /*семейство подгружаемых шрифтов для сайта*/
+  font-style: normal; /* стиль шрифта для тела страницы*/
+  font-size: 16px; /* размер шрифта для страницы по-умолчанию 16 пикселей (обычный стандарт)*/
+  line-height: 1.2; /* задается высота строк*/
+  font-weight: normal; /* вес (жирность шрифта - устанавливаем обычную 300)*/
+  color: #fff;
+	/*background-color: #56d1b2;*/
+}
+/* END Common style for HTML, body*/
+
+/* connecting fonts "titillium-web" START */
+
+/* titillium-web-300 - latin */
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/titillium-web-v14-latin-300.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/titillium-web-v14-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/titillium-web-v14-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/titillium-web-v14-latin-300.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/titillium-web-v14-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/titillium-web-v14-latin-300.svg#TitilliumWeb') format('svg'); /* Legacy iOS */
+}
+/* titillium-web-regular - latin */
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/titillium-web-v14-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/titillium-web-v14-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/titillium-web-v14-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/titillium-web-v14-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/titillium-web-v14-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/titillium-web-v14-latin-regular.svg#TitilliumWeb') format('svg'); /* Legacy iOS */
+}
+/* titillium-web-italic - latin */
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../fonts/titillium-web-v14-latin-italic.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/titillium-web-v14-latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/titillium-web-v14-latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/titillium-web-v14-latin-italic.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/titillium-web-v14-latin-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/titillium-web-v14-latin-italic.svg#TitilliumWeb') format('svg'); /* Legacy iOS */
+}
+/* titillium-web-600 - latin */
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/titillium-web-v14-latin-600.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/titillium-web-v14-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/titillium-web-v14-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/titillium-web-v14-latin-600.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/titillium-web-v14-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/titillium-web-v14-latin-600.svg#TitilliumWeb') format('svg'); /* Legacy iOS */
+}
+/* titillium-web-700 - latin */
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/titillium-web-v14-latin-700.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/titillium-web-v14-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/titillium-web-v14-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/titillium-web-v14-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/titillium-web-v14-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/titillium-web-v14-latin-700.svg#TitilliumWeb') format('svg'); /* Legacy iOS */
+}
+
+/* connecting fonts "titillium-web" END */
+
+/* Header style START*/
+
+.wrapper{
+	max-width: 1140px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: 0 auto;
+}
+
+header {
+background: #87509c;
+}
+
+.logo {
+ padding-left: 41px;
+}
+
+#startpage{
+  padding-top: 75px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu_header{
+  padding-right: 4px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.menu_item{
+	text-decoration: none;
+	color: #FFF;
+	list-style: none;
+	font-family: 'Titillium web';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+  text-transform: uppercase;
+	padding: 7px 15px 5px 17px; 
+  border-radius: 3px;
+}
+
+.menu_item:hover {
+  background: #643a79;
+   
+}
+
+.content {
+  font-family: 'Titillium web';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 42px;
+  color: #FFF;
+  margin-top: 129px;
+  text-align: center;
+}
+
+.bigButton { 
+  text-align: center; 
+  padding-top: 54px;
+  padding-bottom: 145px;
+  }
+  
+ .button {
+  text-decoration: none;
+  display: block;
+  margin: 0 auto;
+  padding-top: 22px;
+  text-align: center;
+  font-family: 'Titillium web';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+  color: #FFF;
+  height: 70px;
+  width: 293px;
+  background: #eb7d4b;
+  border:0;
+  border-radius: 3px;
+  border-bottom: 4px solid #c86a40;
+  cursor: pointer;
+  transition: all .15s cubic-bezier(0.29, 0.43, 0.24, 0.78);
+}
+
+.button:hover {
+  border-top: 4px solid #c86a40;
+  border-bottom: 0px;
+}
+
+.button:active {
+  opacity: .7;
+  border: 6px solid #c86a40;
+  color: #fdd9ca;  
+}
+
+
+
+/* Header style END*/
+
+/* Main Services START */
+
+.block__service{
+  background-color: #17c2a4 ;
+}
+
+.block__title{
+  text-align: center;
+  font-family: 'Titillium web';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+  color: #FFF;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  padding-top: 110px;
+}
+
+.block__title:after{
+  display: block;
+  content: "";
+  width: 87px;
+  height: 4px;
+  margin: 12px auto 0px;
+}
+
+.block__service .block__title:after{
+  background-color: #14a58c;
+}
+
+.block_text{
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.4;
+  word-spacing: 2.5px;
+  text-align: center;
+  max-width: 652px;
+  margin: 16px auto 0px;
+}
+
+.block__items{
+  margin-top: 80px;
+  padding-bottom: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  column-gap: 15px;
+}
+
+.block__item{  
+  flex-basis: 23%;
+  text-align: center;
+}
+
+.img_service{
+  max-height: 140px;
+  margin-bottom: 53px;
+}
+
+.block__item h3{
+  font-size: 24px;
+  color: #fff ;
+  font-weight: 600;
+  text-transform: uppercase;
+ }
+
+.description{
+  margin: 17px auto 111px;
+  width: 80%;
+  line-height: 1.5;
+}
+
+/* Main Services END */
+
+/* Main Team START */
+
+.block_team{
+  background-color: #e7f1f8;
+}
+.block_team .block__title,
+.block_team .block_text{
+  color: #3c4761;
+}
+
+.block_team .block__title:after{
+  background-color: #c8d9e5;
+ }
+ .img_team{
+  width: 200px;
+  }
+  
+  .block_team h3{
+    margin-top: 30px;
+    color: #27283d;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  .block_team h4{
+    color: #30bae7;
+    padding-top: 6px;
+  }
+
+  .block_team .description{
+  font-weight: 300;
+	color: #3c4761;
+  }
+
+  .contacts_item{
+    margin: 32px auto 0;
+    max-width: 75%;
+    display:flex;
+    justify-content: center;
+    column-gap: 12px;
+  }
+
+
+  .contacts_item a{
+  display: block;
+  text-decoration: none;
+  
+  }
+
+
+/* Main Team END */
+
+/*Main Skills START*/
+
+.block__skills{
+  background-color: #fff;
+}
+
+.block__skills h2, .block__skills h6 {
+  color: #3c4761;
+} 
+
+.block__skills .block__title{
+    margin-top: -4px;   
+    padding-bottom: 2px;
+}
+
+.block__skills .block__title:after{
+  background-color: #dfe8ed;
+} 
+
+.block__skills .block_text{
+  max-width: 600px;
+}
+
+.block__skills h3{
+  margin: 0px auto 118px; 
+  color: #3c4761;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.block__skills .block__items {
+  margin-top: 64px;
+  padding-bottom: 1px
+}
+
+.block__skills svg text.percentage_p{
+  font-size: 16px;
+  font-weight: 300;
+}
+
+/*Main Skills END*/
+
+/*Main Portfolio START*/
+
+.block__portfolio{
+  background-color: #ffdd99;
+}
+
+.portfolio__title{
+  text-align: center;
+  font-family: 'Titillium web';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+  color: #393939;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  padding: 110px 0px 0px 10px;
+}
+
+.portfolio__title:after{
+  display: block;
+  content: "";
+  width: 87px;
+  height: 4px;
+  margin: 12px auto 0px;
+  background-color: #e5c37f;
+}
+
+.portfolio_text{
+  font-size: 18px;
+  color: #393939;
+  line-height: 1.4;
+  word-spacing: 2.5px;
+  text-align: center;
+  padding-left: 7px;
+  max-width: 600px;
+  margin: 18px auto 0px;
+}
+
+.portfolio_header{
+  margin: 41px auto 0px;
+  max-width: 45%;
+}
+
+.portfolio_header_menu{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ /* width: 100%;
+  margin: 41px auto 0px;*/
+}
+.pf_header_menu_item{
+  color: #393939;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  background-color: #ebc985;
+  cursor: pointer;
+  padding: 8px 0px;
+  width: 23%;
+}
+
+.pf_header_menu_item:hover{
+  background-color: #fff;
+}
+
+.pf_block__items{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.pf_block__item{
+  padding-top: 64px;
+  flex-basis:  48%;
+}
+
+.pf_block__item a{
+  text-decoration: none;
+  color: #393939;
+
+}
+
+.pf_block__item a:visited{
+  color: #393939;
+}
+
+.pf_block__item a:active{
+  color: #7e7d7d;
+}
+
+.portfolio_img{
+  width: 100%;
+}
+
+.pf_block__item h3{
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #393939;
+  text-align: center;
+  padding-top: 22px;
+}
+
+.block__portfolio .bigButton{
+  margin-top: 24px;
+  padding-bottom: 109px;
+}
+
+.block__portfolio .button{
+  background-color: #17c2a4;
+  border-bottom: 4px solid #14a58c;
+}
+
+.block__portfolio .button:hover {
+  border-top: 4px solid #14a58c;
+  border-bottom: 0px;
+}
+
+.block__portfolio .button:active {
+  opacity: .7;
+  border: 6px solid #14a58c;
+  color: #a6c7c1;  
+}
+
+.pf_big_button{
+  text-decoration: none;
+  font-size: 18px ;
+  color: #fff;
+}
+
+/*Main Portfolio END*/
+
+/*Main About us START*/
+
+.block__aboutUs{
+  background-color: #d74680;
+}
+.block__aboutUs .pf_block__items{
+  padding-bottom: 50px;
+}
+.block__aboutUs .portfolio__title{
+  color: #fff;
+}
+
+.block__aboutUs .portfolio__title:after {
+  background-color: #b73c6d;
+}
+
+.block__aboutUs h6{
+  font-size: 18px;
+  color: #fff;
+}
+
+.aboutUs_block__item{
+  flex-basis: 45%;
+  margin: 60px 0 80px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.abouteUs_img{
+  display: block;
+  border-radius: 50%;
+  max-height: 95px;
+}
+
+.noute{
+  margin-left: 26px;
+  word-spacing: 3px;
+}
+
+.feedback{
+    width: 100%;
+    font-size: 21px;
+    font-style: italic;
+    padding: 9px 0px 20px 22px;
+    line-height: 31px;
+}
+ 
+.name_user{
+  font-size: 24px;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-left: 25px;
+}
+
+.feedback_area{
+  color: #ffdd99;
+  font-size: 18px;
+  padding-left: 26px;
+}
+
+  /*Main About us END*/
+
+  /*Main get in touch START*/
+  
+  .get_in_touch{
+    background-color: #3c5499;
+  }
+
+  .get_in_touch .block__title,
+  .get_in_touch .block_text{
+    color: #fff;
+  }
+
+  .get_in_touch .block_text{
+    max-width: 780px ;
+  }
+  
+  .get_in_touch .block__title:after{
+    background-color: #273a71;
+  }
+  .form_contact{
+    max-width: 1000px;
+    margin: 75px auto 0px;
+    padding: 0px 20px;
+  }
+
+  .fields_form{  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 20px;
+  }
+
+  .field_user_name,
+  .field_form_email{
+    position: relative;
+    flex-basis: 48%;
+    margin-bottom: 26px;
+  }
+
+  .field_form_message{
+    position: relative;
+    flex-basis: 100%;
+    min-height: 200px;
+  }
+
+  .form_name,
+  .form_email,
+  .form_message{
+    display: block;
+    background-color: #273a71;
+    font-family: 'Titillium web';
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    border-radius: 4px;
+    outline: none;
+    cursor: text;
+    width: 100%;
+    height: 100%;
+    padding: 15px 24px ;
+  }
+
+  .form_message{
+    resize: vertical;
+  }
+
+    /*Red Star START*/
+ 
+  span.ph_user_name,
+  span.ph_email,
+  span.ph_message{
+  position: absolute;
+  top: 18px;
+  left: 24px;
+}
+  /* такая связка (селектор:invalid + селектор:before - 
+    позволяет убирать значение "плэйсхолдера" при 
+    начале заполнения поля пользователем)
+   */ 
+   
+   input.form_name:not(:focus):invalid + span.ph_user_name:before,
+   input.form_email:not(:focus):invalid + span.ph_email:before, 
+   textarea.form_message:not(:focus):invalid + span.ph_message:before{
+  /* position: relative;  его "комментирование" не влияет на верстку, планирую не использовать*/
+  content: attr(placeholder);
+  cursor: text;
+  font-family: 'Titillium Web', sans-serif;;
+  color: #fff;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+
+/*некорректно работает для input type="email" */ 
+/*.form_email:invalid + .ph_email:before{
+  background-color: #393939;
+  cursor: wait;
+  content: attr(placeholder);
+}
+*/
+
+input:not(:focus):invalid + span:after,
+.form_message:not(:focus):invalid + .ph_message:after {
+  content: ' *';
+  position: relative;
+  color: red;
+}
+
+    /*Red Star END*/
+
+        /* ПОДСКАЗКА СЕБЕ */
+/* убираем рамку вокруг полей при активации поля*/
+/*.form_name:focus,
+.form_email:focus,
+.form_message:focus{
+  outline: none;
+}*/
+
+/* убираем рамку вокруг полей 
+form *{
+  outline: none;
+}
+*/
+
+.form_contact .bigButton{
+  margin: 6px auto -30px;
+}
+
+.form_contact .button{  
+  background-color: #30bae7;
+  border-bottom: 4px solid #299ec5;
+  transition: all .15s cubic-bezier(0.29, 0.43, 0.24, 0.78);
+  padding-bottom: 22px;
+}
+
+.form_contact .button:hover {
+  border-top: 4px solid #299ec5;
+  border-bottom: 0;
+}
+
+.form_contact .button:active {
+  opacity: .7;
+  border: 6px solid #3e90ac;
+  color: #93d1e4;  
+}
+
+  /*Main get in touch END*/
+
+  /*Footer START*/
+
+footer{
+  background-color: #344b8e;
+ }
+
+footer hr{
+  margin: 0px;
+  border: 0px;
+  height: 1px;
+  background-color: #3e5392;
+}
+
+.social_media{
+  max-width: 945px;
+  text-align: center;
+  padding: 41px 20px;
+  margin: 0 auto;
+}
+
+.social_media a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  margin-right: 55px;
+}
+
+.social_media a:last-child{
+  margin-right: 0px;
+}
+
+.social_media a:hover{
+  color: #30bae7;
+}
+
+.social_media a:active{
+  color: #b7f1b2;
+}
+
+  /*Footer END*/
+
+/*Adaptiv START*/
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+     
+
+
+
+  /*Main About us START adaptiv*/
+
+.aboutUs_block__item{
+  flex-basis: 100%;
+  margin: 10px 0px 20px;
+}
+
+.noute{
+  margin: 0 auto;
+}
+
+  /*Main About us END adaptiv*/
+
+/*Main get in touch START adaptiv*/
+
+.block__title{
+  padding-top: 75px;
+}
+
+/*Main get in touch END adaptiv*/
+
+}
+
+
+
+@media screen and (max-width: 576px) {
+
+  /*Main Skills START adaptiv*/
+
+  .block__skills .block__items {
+    margin-top: 0px;
+  }
+
+  .block__skills h3 {
+    margin: -10px auto 40px;
+  }
+
+
+  /*Main Skills START adaptiv*/
+
+
+  /*Main Portfolio START adaptiv*/
+
+  .pf_block__item{
+    padding-top: 40px;
+  }
+
+  .block__portfolio .bigButton {
+    margin-top: 0px;
+    padding: 20px 0px;
+}
+
+  /*Main Portfolio END adaptiv*/
+
+  /*Main About us START adaptiv*/
+
+.portfolio__title{
+  padding: 40px 0px 0px 10px;
+}
+
+.block__aboutUs .pf_block__items {
+  padding: 20px 0px 26px 0px;
+}
+
+.aboutUs_block__item{
+  flex-basis: 100%;
+  margin: 10px 0px 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.feedback{
+  padding: 3px 0px 5px 0px;
+}
+
+/*Main About us END adaptiv*/
+
+
+/*Main get in touch START adaptiv*/
+
+  .block__title{
+    padding-top: 40px;
+  }
+
+  .get_in_touch .block_text {
+    font-size: 16px;
+  }
+
+  .form_contact{
+    margin-top: 25px;
+  }
+
+  .field_user_name, .field_form_email {
+    flex-basis: 100%;
+  } 
+  
+  .bigButton{
+    padding: 20px 0px ;
+  }
+
+  .form_contact .bigButton {
+    margin: 0px auto;
+  }
+
+  /*Main get in touch END adaptiv*/
+
+  /*Footer START adaptiv*/
+
+  .social_media {
+    padding: 10px 0px;
+  }
+
+  .social_media a{
+    margin-right: 30px;
+    line-height: 35px;
+  }
+
+/*Footer END adaptiv*/
+
+}
+
+/*Adaptiv END*/

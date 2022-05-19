@@ -1,0 +1,27 @@
+body.all {
+  background-color: #f0e1b3;
+}
+
+body.apps {
+  background-color: #8ac2ba;
+}
+
+body.icons {
+  background-color: #547dbb;
+}
+
+body.web {
+  background-color: #4db35e;
+}
+
+h1 {
+  color: rgb(249, 250, 246);
+  font-size: 40px;
+  font-style: oblique;
+  font-weight: 600;
+}
+
+.image img{
+  display: block;
+  margin: 0 auto;
+}
