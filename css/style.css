@@ -748,11 +748,17 @@ footer hr{
 
   /*Footer END*/
 
-/*Adaptiv START*/
+/******* Adaptiv START *******/
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
      
+  .block__item {
+    flex-basis: 48%;
+  }
 
+  svg.radial-progress{ /* основной стиль в progressBar.css */
+    max-width: 258px;
+  }
 
 
   /*Main About us START adaptiv*/
@@ -796,6 +802,20 @@ footer hr{
 
 
 @media screen and (max-width: 576px) {
+
+
+  .block__skills .block_text {
+    margin-bottom: 40px;
+  }
+
+  .block__item {
+    flex-basis: 100%;
+  }
+  
+  svg.radial-progress{ /* основной стиль в progressBar.css */
+    max-width: 274px;
+  }
+
 
   /*Main Skills START adaptiv*/
 
@@ -900,4 +920,4 @@ footer hr{
 
 }
 
-/*Adaptiv END*/
+/******* Adaptiv END *******/
