@@ -756,14 +756,29 @@ footer hr{
 
 
   /*Main About us START adaptiv*/
+  .portfolio__title {
+    padding-top: 45px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.block__aboutUs h6{
+  padding-bottom: 15px;
+}
 
 .aboutUs_block__item{
   flex-basis: 100%;
-  margin: 10px 0px 20px;
+  margin: 10px 0px 30px;
+  align-items: center;
 }
 
 .noute{
   margin: 0 auto;
+}
+
+.feedback {
+  padding-top: 0px;
+  line-height: 26px;
 }
 
   /*Main About us END adaptiv*/
@@ -798,22 +813,31 @@ footer hr{
 
   /*Main Portfolio START adaptiv*/
 
+  .portfolio__title{
+    padding-top: 32px;
+  }
+
+  .portfolio_header{
+    max-width: 100%;
+    margin-top: 32px;
+  }
+
+  .pf_block__items{
+    justify-content: center;
+  }
   .pf_block__item{
     padding-top: 40px;
+    flex-basis: 90%;
   }
 
   .block__portfolio .bigButton {
     margin-top: 0px;
-    padding: 20px 0px;
+    padding: 45px 0px 56px;
 }
 
   /*Main Portfolio END adaptiv*/
 
   /*Main About us START adaptiv*/
-
-.portfolio__title{
-  padding: 40px 0px 0px 10px;
-}
 
 .block__aboutUs .pf_block__items {
   padding: 20px 0px 26px 0px;
@@ -821,7 +845,7 @@ footer hr{
 
 .aboutUs_block__item{
   flex-basis: 100%;
-  margin: 10px 0px 20px;
+  margin: 10px 0px 28px;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -852,7 +876,7 @@ footer hr{
   } 
   
   .bigButton{
-    padding: 20px 0px ;
+    padding: 45px 0px 56px;
   }
 
   .form_contact .bigButton {
