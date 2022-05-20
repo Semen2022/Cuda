@@ -283,7 +283,8 @@ background: #87509c;
   background-color: #c8d9e5;
  }
  .img_team{
-  width: 200px;
+  max-width: 200px;
+  width: 100%;
   }
   
   .block_team h3{
@@ -315,7 +316,6 @@ background: #87509c;
   .contacts_item a{
   display: block;
   text-decoration: none;
-  
   }
 
 
@@ -330,11 +330,6 @@ background: #87509c;
 .block__skills h2, .block__skills h6 {
   color: #3c4761;
 } 
-
-.block__skills .block__title{
-    margin-top: -4px;   
-    padding-bottom: 2px;
-}
 
 .block__skills .block__title:after{
   background-color: #dfe8ed;
@@ -751,7 +746,42 @@ footer hr{
 /******* Adaptiv START *******/
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
-     
+  
+  /* Main Services START adaptiv*/
+  
+  .block__title {
+    padding-top: 45px;
+  }
+
+  .block__items{
+    margin-top: 48px;
+  }
+
+  .img_service {
+    margin-bottom: 25px;
+  }
+  
+  .description{
+    margin: 6px auto 56px;
+  }
+
+  /* Main Services END adaptiv*/
+  
+  .contacts_item{
+    margin-top: 15px;
+  }
+  
+  /* Main Team START adaptiv */
+  
+  .block_team h3 {
+    margin-top: 10px;
+  }
+
+  /* Main Team END adaptiv */
+
+
+  /*Main Skills START adaptiv*/
+
   .block__item {
     flex-basis: 48%;
   }
@@ -760,15 +790,22 @@ footer hr{
     max-width: 258px;
   }
 
+  /*Main Skills END adaptiv*/
 
-  /*Main About us START adaptiv*/
+ /*Main Portfolio START adaptiv*/
+
   .portfolio__title {
     padding-top: 45px;
     max-width: 500px;
     margin: 0 auto;
 }
 
-.block__aboutUs h6{
+/*Main Portfolio END adaptiv*/
+
+
+ /*Main About us START adaptiv*/
+
+ .block__aboutUs h6{
   padding-bottom: 15px;
 }
 
@@ -789,20 +826,42 @@ footer hr{
 
   /*Main About us END adaptiv*/
 
-/*Main get in touch START adaptiv*/
-
-.block__title{
-  padding-top: 75px;
 }
-
-/*Main get in touch END adaptiv*/
-
-}
-
 
 
 @media screen and (max-width: 576px) {
 
+  /* Main Services START adaptiv*/
+
+.block__items {
+  margin-top: 46px;
+}
+
+.block__title {
+  padding-top: 40px;
+}
+
+.img_service {
+  margin-bottom: 25px;
+}
+
+.description {
+  margin: 5px auto 52px;
+}
+
+/* Main Services END adaptiv*/
+
+.contacts_item{
+  margin-top: 15px;
+}
+
+/* Main Team START adaptiv */
+
+.block_team h3 {
+  margin-top: 8px;
+}
+
+  /*Main Skills START adaptiv*/
 
   .block__skills .block_text {
     margin-bottom: 40px;
@@ -815,10 +874,6 @@ footer hr{
   svg.radial-progress{ /* основной стиль в progressBar.css */
     max-width: 274px;
   }
-
-
-  /*Main Skills START adaptiv*/
-
   .block__skills .block__items {
     margin-top: 0px;
   }
@@ -827,8 +882,7 @@ footer hr{
     margin: -10px auto 40px;
   }
 
-
-  /*Main Skills START adaptiv*/
+  /*Main Skills END adaptiv*/
 
 
   /*Main Portfolio START adaptiv*/
@@ -857,6 +911,7 @@ footer hr{
 
   /*Main Portfolio END adaptiv*/
 
+
   /*Main About us START adaptiv*/
 
 .block__aboutUs .pf_block__items {
@@ -878,10 +933,6 @@ footer hr{
 
 
 /*Main get in touch START adaptiv*/
-
-  .block__title{
-    padding-top: 40px;
-  }
 
   .get_in_touch .block_text {
     font-size: 16px;
