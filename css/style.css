@@ -125,7 +125,7 @@ background: #87509c;
 	flex-wrap: wrap;
 }
 
-.menu_item{
+.menu_item {
 	text-decoration: none;
 	color: #FFF;
 	list-style: none;
@@ -190,8 +190,6 @@ background: #87509c;
   border: 6px solid #c86a40;
   color: #fdd9ca;  
 }
-
-
 
 /* Header style END*/
 
@@ -530,11 +528,11 @@ background: #87509c;
 }
 
 .feedback{
-    width: 100%;
-    font-size: 21px;
-    font-style: italic;
-    padding: 9px 0px 20px 22px;
-    line-height: 31px;
+  width: 100%;
+  font-size: 21px;
+  font-style: italic;
+  padding: 9px 0px 20px 22px;
+  line-height: 31px;
 }
  
 .name_user{
@@ -677,7 +675,7 @@ form *{
 }
 */
 
-.form_contact .bigButton{
+.form_contact .bigButton {
   margin: 6px auto -30px;
 }
 
@@ -747,6 +745,30 @@ footer hr{
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
   
+/* Header style START adaptiv */
+
+  #startpage {
+    padding-top: 45px;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .logo {
+    padding-left: 0px;
+  }
+
+  .content {
+    max-width: 484px;
+    width: 100%;
+    margin: 54px auto 10px;
+  }
+
+  .bigButton{
+    padding-bottom: 90px;
+  }
+
+  /* Header style END adaptiv 
+
   /* Main Services START adaptiv*/
   
   .block__title {
@@ -794,10 +816,15 @@ footer hr{
 
  /*Main Portfolio START adaptiv*/
 
-  .portfolio__title {
-    padding-top: 45px;
-    max-width: 500px;
-    margin: 0 auto;
+.portfolio__title {
+  padding-top: 45px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.block__portfolio .bigButton{
+  margin: 0 auto;
+  padding-bottom: 90px;
 }
 
 /*Main Portfolio END adaptiv*/
@@ -826,11 +853,54 @@ footer hr{
 
   /*Main About us END adaptiv*/
 
+  .form_contact .bigButton {
+    margin: 0 auto;
+  }
+
 }
 
 
 @media screen and (max-width: 576px) {
 
+  /* Header style START adaptiv */
+
+  #startpage {
+    padding-top: 45px;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .logo {
+    padding-left: 0px;
+  }
+
+  .menu_header {
+    padding-right: 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+
+  .menu_item {
+    font-size: 12px;
+    font-weight: 600;
+    padding: 7px 5px 7px 5px; 
+  }
+
+  .content {
+    max-width: 410px;
+    width: 100%;
+    margin: 32px auto 0px;
+    font-size: 36px;
+  }
+
+  .bigButton {
+    padding-bottom: 75px;
+  }
+
+  /* Header style END adaptiv 
+  
+  
   /* Main Services START adaptiv*/
 
 .block__items {
@@ -906,7 +976,7 @@ footer hr{
 
   .block__portfolio .bigButton {
     margin-top: 0px;
-    padding: 45px 0px 56px;
+    padding: 54px 0px 75px;
 }
 
   /*Main Portfolio END adaptiv*/
@@ -946,12 +1016,9 @@ footer hr{
     flex-basis: 100%;
   } 
   
-  .bigButton{
-    padding: 45px 0px 56px;
-  }
-
   .form_contact .bigButton {
     margin: 0px auto;
+    padding-bottom: 75px;
   }
 
   /*Main get in touch END adaptiv*/
