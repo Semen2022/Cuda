@@ -125,8 +125,12 @@ background: #87509c;
 	flex-wrap: wrap;
 }
 
+.menu_burger_wrap{
+  display: none;
+}
+
 .menu_item {
-	text-decoration: none;
+  text-decoration: none;
 	color: #FFF;
 	list-style: none;
 	font-family: 'Titillium web';
@@ -866,25 +870,38 @@ footer hr{
 
   #startpage {
     padding-top: 45px;
-    flex-direction: column;
-    gap: 12px;
+    flex-direction: row;
   }
 
   .logo {
-    padding-left: 0px;
+    margin: 0 auto;;
   }
 
   .menu_header {
-    padding-right: 0px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: nowrap;
+    width: 50%;
+    height: 30vh;
+    display: none;
+    margin-left: 50%;
+  }
+
+  .menu_burger_wrap{
+    display: block;
+    width: 45px;
+    height: 45px;
+    margin-right: 25px;
+  }
+  
+  .menu_burger_img{
+    width: 100%;
   }
 
   .menu_item {
-    font-size: 12px;
-    font-weight: 600;
-    padding: 7px 5px 7px 5px; 
+    margin-left: unset;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 20px; 
   }
 
   .content {
