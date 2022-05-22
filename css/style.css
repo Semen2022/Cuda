@@ -873,15 +873,10 @@ footer hr{
     flex-direction: row;
   }
 
-  .logo {
-    margin: 0 auto;;
-  }
-
   .menu_header {
-    width: 50%;
-    height: 35vh;
+    width: 100%;
+    height: 44vh;
     display: none;
-    margin-left: 50%;
   }
 
   .menu_burger_wrap{
