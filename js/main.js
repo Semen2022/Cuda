@@ -17,80 +17,80 @@ $("#menuBurgerItems a").click(function(){
 
 let allProjects = `
 <div class="pf_block__item">
-    <a href="#"><img class="portfolio_img" src="img/1.png" alt="foto works 1"></a>
-    <h3><a href="#">Isometric Perspective Mock-Up</a></h3>                    
+    <img class="portfolio_img" src="img/1.png" alt="foto works 1">
+    <h3>Isometric Perspective Mock-Up</h3>                    
 </div>
 <div class="pf_block__item">
-    <a href="#"><img class="portfolio_img" src="img/2.png" alt="foto works 2"></a>
-    <h3><a href="#">Time Zone App UI</a></h3>
+    <img class="portfolio_img" src="img/2.png" alt="foto works 2">
+    <h3>Time Zone App UI</h3>
 </div>
 <div class="pf_block__item">
-    <a href="#"><img class="portfolio_img" src="img/3.png" alt="foto works 3"></a>
-    <h3><a href="#">Viro Media Players UI</a></h3>
+    <img class="portfolio_img" src="img/3.png" alt="foto works 3">
+    <h3>Viro Media Players UI</h3>
 </div>
 <div class="pf_block__item">
-    <a href="#"><img class="portfolio_img" src="img/4.png" alt="foto works 4"></a>
-    <h3><a href="#">Blog / Magazine Flat UI Kit</a></h3>
+    <img class="portfolio_img" src="img/4.png" alt="foto works 4">
+    <h3>Blog / Magazine Flat UI Kit</h3>
 </div>
 `;
 
 let moreProjects = `
 <div class="pf_block__item">
-    <a href="#"><img class="portfolio_img" src="img/1.png" alt="foto works 1"></a>
-    <h3><a href="#">Isometric Perspective Mock-Up</a></h3>                    
+    <img class="portfolio_img" src="img/1.png" alt="foto works 1">
+    <h3>Isometric Perspective Mock-Up</h3>                    
 </div>
 <div class="pf_block__item">
-    <a href="#"><img class="portfolio_img" src="img/2.png" alt="foto works 2"></a>
-    <h3><a href="#">Time Zone App UI</a></h3>
+    <img class="portfolio_img" src="img/2.png" alt="foto works 2">
+    <h3>Time Zone App UI</h3>
 </div>
 <div class="pf_block__item">
-    <a href="#"><img class="portfolio_img" src="img/3.png" alt="foto works 3"></a>
-    <h3><a href="#">Viro Media Players UI</a></h3>
+    <img class="portfolio_img" src="img/3.png" alt="foto works 3">
+    <h3>Viro Media Players UI</h3>
 </div>
 <div class="pf_block__item">
-    <a href="#"><img class="portfolio_img" src="img/4.png" alt="foto works 4"></a>
-    <h3><a href="#">Blog / Magazine Flat UI Kit</a></h3>
+    <img class="portfolio_img" src="img/4.png" alt="foto works 4">
+    <h3>Blog / Magazine Flat UI Kit</h3>
 </div>
 <div class="pf_block__item">
-    <a href="#"><img class="portfolio_img" src="img/5.png" alt="foto works 4"></a>
-    <h3><a href="#">VK</a></h3>
+    <a href="https://vk.com/" target="_blank" ><img class="portfolio_img" src="img/5.png" alt="foto works 4"></a>
+    <h3><a href="https://vk.com/" target="_blank">VK</a></h3>
 </div>
 <div class="pf_block__item">
-    <a href="#"><img class="portfolio_img" src="img/6.png" alt="foto works 4"></a>
-    <h3><a href="#">Telegram</a></h3>
+    <a href="https://telegram.org/" target="_blank"><img class="portfolio_img" src="img/6.png" alt="foto works 4"></a>
+    <h3><a href="https://telegram.org/" target="_blank">Telegram</a></h3>
 </div>
 `;
 
 let webProjects = `
 <div class="pf_block__item">
-    <a href="#"><img class="portfolio_img" src="img/5.png" alt="foto works 4"></a>
-    <h3><a href="#">VK</a></h3>
+    <a href="https://vk.com/" target="_blank"><img class="portfolio_img" src="img/5.png" alt="foto works 4"></a>
+    <h3><a href="https://vk.com/" target="_blank">VK</a></h3>
 </div>
 <div class="pf_block__item">
-    <a href="#"><img class="portfolio_img" src="img/6.png" alt="foto works 4"></a>
-    <h3><a href="#">Telegram</a></h3>
+    <a href="https://telegram.org/" target="_blank"><img class="portfolio_img" src="img/6.png" alt="foto works 4"></a>
+    <h3><a href="https://telegram.org/" target="_blank">Telegram</a></h3>
 </div>
 `;
 
 let appsProjects = `
 <div class="pf_block__item">
-    <a href="#"><img class="portfolio_img" src="img/1.png" alt="foto works 1"></a>
-    <h3><a href="#">Isometric Perspective Mock-Up</a></h3>                    
+    <img class="portfolio_img" src="img/1.png" alt="foto works 1">
+    <h3>Isometric Perspective Mock-Up</h3>                    
 </div>
 <div class="pf_block__item">
-    <a href="#"><img class="portfolio_img" src="img/2.png" alt="foto works 2"></a>
-    <h3><a href="#">Time Zone App UI</a></h3>
+    <img class="portfolio_img" src="img/2.png" alt="foto works 2">
+    <h3>Time Zone App UI</h3>
 </div>
 `;
 
 let iconsProjects = `
 <div class="pf_block__item">
-    <a href="#"><img class="portfolio_img" src="img/3.png" alt="foto works 3"></a>
-    <h3><a href="#">Viro Media Players UI</a></h3>
+    <img class="portfolio_img" src="img/3.png" alt="foto works 3">
+    <h3>Viro Media Players UI</h3>
 </div>
 <div class="pf_block__item">
-    <a href="#"><img class="portfolio_img" src="img/4.png" alt="foto works 4"></a>
-    <h3><a href="#">Blog / Magazine Flat UI Kit</a></h3>
+    <img class="portfolio_img" src="img/4.png" alt="foto works 4">
+    <h3>Blog / Magazine Flat UI Kit</h3>
 </div>
 `;
 

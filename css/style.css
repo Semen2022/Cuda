@@ -470,6 +470,7 @@ background: #87509c;
 .block__portfolio .button{
   background-color: #17c2a4;
   border-bottom: 4px solid #14a58c;
+  padding-top: 0;
 }
 
 .block__portfolio .button:hover {
